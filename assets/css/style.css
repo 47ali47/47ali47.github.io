@@ -1,5 +1,6 @@
-
+/* Univeral reset, as * targets everything */
 * {
+    /* Start from a blank slate */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,5 +41,6 @@
 /* Shrink Footer Text */
 .footer {
     font-size: 0.8rem;
+    text-decoration: none;
   }
   
