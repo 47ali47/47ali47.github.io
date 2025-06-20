@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.6;
+    color: #111;
+  }
+
+/* Center Header and Footer */
+.site-header,
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+}
+.site-header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+/* Section Spacing */
+.section {
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .section p {
+    font-size: 1rem;
+  }
+  
+/* Shrink Footer Text */
+.footer {
+    font-size: 0.8rem;
+  }
+  
