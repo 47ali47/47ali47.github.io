@@ -34,6 +34,12 @@ body { font-family: "Noto Sans JP", sans-serif; line-height:1.6; color:#111; }
 /*–– Footer ––*/
 .site-footer { font-size:.9rem; color:#555; }
 
-.section, .hero { opacity: 1; transform: translateY(20px); transition: opacity .8s, transform .8s; }
-.section.in-view, .hero.in-view { opacity: 1; transform: translateY(0); }
-
+/* .section, .hero { opacity: 1; transform: translateY(20px); transition: opacity .8s, transform .8s; }
+.section.in-view, .hero.in-view { opacity: 1; transform: translateY(0); } */
+/* at the very bottom of style.css */
+.section, .hero {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  
