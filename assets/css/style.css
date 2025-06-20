@@ -8,7 +8,7 @@ body { font-family: "Noto Sans JP", sans-serif; line-height:1.6; color:#111; }
 .site-header nav a { margin: 0 1rem; text-decoration:none; }
 
 /*–– Hero ––*/
-.hero img { width:100%; height:auto; display:block; }
+.cecil img { width:100%; height:auto; display:block; }
 
 /*–– Sections ––*/
 .section { max-width:800px; margin:4rem auto; padding:0 1rem; }
@@ -37,7 +37,7 @@ body { font-family: "Noto Sans JP", sans-serif; line-height:1.6; color:#111; }
 /* .section, .hero { opacity: 1; transform: translateY(20px); transition: opacity .8s, transform .8s; }
 .section.in-view, .hero.in-view { opacity: 1; transform: translateY(0); } */
 /* at the very bottom of style.css */
-.section, .hero {
+.section, .cecil {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
